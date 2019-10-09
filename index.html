@@ -1,26 +1,50 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149671278-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149671278-1');
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://connorruggles.dev/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/7c08ace86f.js"></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="description" content="Personal website for Connor Ruggles, a software engineer living in Iowa.">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://connorruggles.dev">
+    <meta property="og:title" content="Connor Ruggles">
+    <meta property="og:image" content="https://connorruggles.dev/logo.png">
+    <meta property="og:description" content="Personal website for Connor Ruggles, a software engineer living in Iowa. Showcasing a few open source projects that I've worked on that I'm proud of.">
+    <meta property="og:site_name" content="Connor Ruggles's personal website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
-    <style>
-        body {
-            padding-top: 80px;
-        }
-    </style>
-    <script src="https://kit.fontawesome.com/7c08ace86f.js"></script>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@connor_bonnor">
+    <meta name="twitter:creator" content="@connor_bonnor">
+    <meta name="twitter:url" content="https://connorruggles.dev">
+    <meta name="twitter:title" content="Connor Ruggles">
+    <meta name="twitter:description" content="Personal website for Connor Ruggles, a software engineer living in Iowa. Showcasing a few open source projects that I've worked on that I'm proud of.">
+    <meta name="twitter:image" content="https://connorruggles.dev/logo.png">
+
+
+    <style>body{padding-top:80px;}</style>
     <title>Welcome</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-md bg-light navbar-light mb-2 fixed-top">
-            <a class="navbar-brand" href="/">Connor Ruggles</a>
+            <a class="navbar-brand" href="/"><img src="/logo.png" class="d-inline-block align-top" alt="Connor Ruggles"></a>
             <button class="navbar-toggler"
                     type="button" data-toggle="collapse"
                     data-target="#navbarCollapse"
@@ -32,18 +56,18 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/rugglcon" target="_blank"><i class="fab fa-github" style="color: #444;"></i>&nbsp;<span class="d-inline-block d-md-none">Github</span></a>
+                        <a aria-label="Github link" class="nav-link" href="https://github.com/rugglcon" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" style="color: #444;"></i>&nbsp;<span class="d-inline-block d-md-none">Github</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com/intent/follow?screen_name=connor_bonnor" target="_blank"><i style="color: #55acee;" class="fab fa-twitter"></i>&nbsp;<span class="d-inline-block d-md-none">Twitter</span></a>
+                        <a aria-label="Twitter link" class="nav-link" href="https://twitter.com/intent/follow?screen_name=connor_bonnor" target="_blank" rel="noopener noreferrer"><i style="color: #55acee;" class="fab fa-twitter"></i>&nbsp;<span class="d-inline-block d-md-none">Twitter</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/connor-ruggles-66a75b10a/" target="_blank"><i class="fab fa-linkedin" style="color: #0077b5;"></i>&nbsp;<span class="d-inline-block d-md-none">LinkedIn</span></a>
+                        <a aria-label="LinkedIn link" class="nav-link" href="https://www.linkedin.com/in/connor-ruggles-66a75b10a/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" style="color: #0077b5;"></i>&nbsp;<span class="d-inline-block d-md-none">LinkedIn</span></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="mailto:connor@connorruggles.dev"><i class="fas fa-envelope text-danger"></i>&nbsp;<span class="d-inline-block d-md-none">Contact Me</span></a>
+                        <a aria-label="Email link to conruggles@gmail.com" class="nav-link" href="mailto:connor@connorruggles.dev"><i class="fas fa-envelope text-danger"></i>&nbsp;<span class="d-inline-block d-md-none">Contact Me</span></a>
                     </li>
                 </ul>
             </div>
@@ -54,7 +78,7 @@
                     <h1 class="display-4">Hi, I'm Connor.</h1>
                     <p class="lead">A little bit about me</p>
                     <hr class="my-3">
-                    <p>I'm a 24 year old software engineer currently residing in Boone, Iowa. I graduated from Iowa State University in December of 2018 with a bachelor's degree in software engineering. I love open source software and supporting it in any way I can. Please explore the links below, or <a href="https://paypal.me/conruggles?locale.x=en_US" target="_blank">buy me a coffee</a> if you'd like to support my own <a href="#projects">open source projects</a> :)</p>
+                    <p>I'm a 24 year old software engineer currently residing in Boone, Iowa. I graduated from Iowa State University in December of 2018 with a bachelor's degree in software engineering. I love open source software and supporting it in any way I can. Please explore the links below, or <a href="https://paypal.me/conruggles?locale.x=en_US" target="_blank" rel="noopener noreferrer">buy me a coffee</a> if you'd like to support my own <a href="#projects">open source projects</a> :)</p>
                 </div>
             </div>
         </div>
@@ -67,7 +91,7 @@
                         </div>
                         <div class="card-body">
                             <p>Simple budget tracker with Angular frontend and ExpressJS/Node backend.</p>
-                            <a class="btn btn-lg btn-block btn-primary" href="https://budgettracker.connorruggles.dev" target="_blank">Check it out</a>
+                            <a class="btn btn-lg btn-block btn-primary" href="https://budgettracker.connorruggles.dev" target="_blank" rel="noopener noreferrer">Check it out</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +102,7 @@
                         </div>
                         <div class="card-body">
                             <p>Python program that makes a random Unsplash photo your background.</p>
-                            <a class="btn btn-lg btn-block btn-primary" target="_blank" href="https://pypi.org/project/backgroundchanger/">Check it out</a>
+                            <a class="btn btn-lg btn-block btn-primary" target="_blank" href="https://pypi.org/project/backgroundchanger/" rel="noopener noreferrer">Check it out</a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +113,7 @@
                         </div>
                         <div class="card-body">
                                 <p>A simple ExpressJS server for CI/CD for publicly available projects.</p>
-                            <a class="btn btn-lg btn-block btn-primary" target="_blank" href="https://github.com/rugglcon/githooks-node">Check it out</a>
+                            <a class="btn btn-lg btn-block btn-primary" target="_blank" href="https://github.com/rugglcon/githooks-node" rel="noopener noreferrer">Check it out</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +124,7 @@
                         </div>
                         <div class="card-body">
                             <p>Simple JS program to compress files and extract archives.</p>
-                            <a class="btn btn-lg btn-block btn-primary" target="_blank" href="https://www.npmjs.com/package/jsbackup">Check it out</a>
+                            <a class="btn btn-lg btn-block btn-primary" target="_blank" href="https://www.npmjs.com/package/jsbackup" rel="noopener noreferrer">Check it out</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +135,7 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/rugglcon/connorruggles.dev/issues/new" target="_blank">
+                        <a class="nav-link" href="https://github.com/rugglcon/connorruggles.dev/issues/new" target="_blank" rel="noopener noreferrer">
                             Report a bug <i class="fas fa-bug"></i>
                         </a>
                     </li>
@@ -120,14 +144,14 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
 
